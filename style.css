@@ -1,0 +1,139 @@
+/*
+Theme Name: Education Zone Child
+Theme URI: http://raratheme.com/wordpress-themes/education-zone/
+Template: education-zone
+Author: Rara Theme
+Author URI: http://raratheme.com/
+Description: Education Zone is a free clean, beautiful and professional looking WordPress Theme specially designed for Education Institutions. This theme is best suited for college, school, university, LMS, Training Center, Academy, Primary School, High school and Kindergarten and other educational websites. The theme is very flexible and versatile can be used to build various types of business and corporate websites. The theme is highly customizable with various features and personalization options. Education Zone comes with several features to make a user-friendly, interactive and visually stunning website. Such features include custom menu, attractive banner, Stat counter, Courses section, testimonial section, Banner with Call to Action Button (CTA), and social media. The theme is SEO friendly with optimized codes, which make it easy for your site to rank on Google and other search engines. The theme is rigorously tested and optimized for speed and faster page load time and has a secure and clean code. The theme is also translation ready. Designed with visitor engagement in mind, Education Zone helps you to easily and intuitively create professional and appealing websites. If your school, college or university needs an online home that is dynamic and multi-functional, this theme is a good place to start. Check the demo at http://raratheme.com/preview/education-zone/, documentation at http://raratheme.com/documentation/education-zone/, and get support at http://raratheme.com/support-ticket/.
+Tags: blog,two-columns,right-sidebar,footer-widgets,custom-background,custom-menu,featured-images,threaded-comments,translation-ready,full-width-template,education,theme-options,custom-logo,e-commerce,one-column,post-formats
+Version: 1.1.0.1491263890
+Updated: 2017-04-04 01:58:10
+
+*/
+
+/**
+ * Change brand color
+ **/
+.main-navigation ul ul {
+	background:#532C55;
+}
+.site-header .header-top{
+	background: #532C55;
+}
+.site-header .header-top .secondary-nav ul{
+	background: #532C55;
+}
+.site-header .header-top .secondary-nav ul ul{
+	background:#532C55;
+}
+.site-header .header-bottom{
+	background: #532C55 ;
+}
+.banner .banner-text .text .course-link{
+	background: #532C55;
+}
+.welcome-note .col h3{
+	color: #532C55;
+}
+.featured-courses ul li .image-holder .description .learn-more{
+	background: #532C55;
+}
+.theme .theme-description .apply:hover{
+	background: #532C55 ;
+	border: 1px solid #532C55 ;
+}
+.latest-events .learn-more{
+	background: #532C55;
+}
+.search-section{
+	background: #532C55;
+}
+.search-section form input[type="submit"]{
+	color: #532C55;
+}
+#primary .read-more{
+	background: #532C55;
+}
+.widget-area .widget form input[type="submit"], .page-header form input[type="submit"]{
+	background: url(images/search-icon.png) no-repeat 48% 53% #532C55;
+}
+.navigation.pagination .page-numbers.current, .navigation.pagination .page-numbers:hover{
+	border: 2px solid #532C55;
+	color: #532C55;
+}
+.tags a:hover{
+	color: #532C55;
+}
+.tags .fa{
+	color: #532C55;
+}
+.reply a:hover{
+	color: #532C55;
+}
+.comment-form form input[type="submit"]{
+	background:#532C55;
+}
+.single-post .site-content .entry-content form input[type="submit"]{
+	background: #532C55;
+}
+.error404 .not-found span{
+	color: #532C55;
+}
+.error404 .homepage{
+	background: #532C55;
+}
+
+/**
+ * Change section background
+ **/
+
+.theme{
+	background: url(images/theme-section-img.jpg) no-repeat;
+}
+.banner img {
+	position: relative;
+}
+.banner:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.4);
+}
+.banner .banner-text {
+	z-index: 5;
+}
+
+.thumb-text li .box-4 {
+// 	background: #F45A8B;
+}
+
+#menu-item-120 {
+	float: right;
+	padding-left: 32px;
+	padding-right: 32px;
+	background: rgba(0,0,0,.2);
+}
+.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a {
+	opacity: 1;
+}
+.site-title {
+	font-size: 54px;
+	margin-bottom: 20px;
+}
+.site-description {
+	font-size: 22px;
+	margin-bottom: 16px;
+}
+
+.thumb-text li span {
+	margin-bottom: 32px;
+}
+.thumb-text li h3 {
+	margin-bottom: 32px;
+}
+.box-1 p {
+	font-size: 1.5em;
+}
