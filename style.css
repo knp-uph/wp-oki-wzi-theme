@@ -91,6 +91,7 @@ Updated: 2017-04-04 01:58:10
 	background: url(images/theme-section-img.jpg) no-repeat;
 	background-position: center center;
 	background-size: cover;
+	background-attachment: fixed;
 }
 .banner img {
 	position: relative;
