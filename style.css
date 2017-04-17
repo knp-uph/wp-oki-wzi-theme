@@ -89,6 +89,8 @@ Updated: 2017-04-04 01:58:10
 
 .theme{
 	background: url(images/theme-section-img.jpg) no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 .banner img {
 	position: relative;
@@ -136,4 +138,8 @@ Updated: 2017-04-04 01:58:10
 }
 .box-1 p {
 	font-size: 1.5em;
+}
+
+#publication.theme{
+	background-image: url(images/theme-publication-section-img.jpg);
 }
